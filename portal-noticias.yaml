@@ -1,0 +1,12 @@
+# projeto do curso de kubernetes Alura
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: portal-noticias
+spec:
+  containers:
+    - name: portal-noticias-container
+    imagem: aluracursos/portal-noticias:1
+
+# kubectl apply -f portal-noticias.yaml
