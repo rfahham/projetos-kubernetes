@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+    - name: nginx-container
+    imagem: nginx:latest
+
+# kubectl apply -f nginx.yaml
