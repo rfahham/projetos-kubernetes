@@ -24,27 +24,31 @@ kubectl create namespace workon
 ## Step 4 - Listar os namespaces
 
 ``` bash
-kubens ou kubectl get ns
+kubens 
+ou
+kubectl get ns
 ```
+
+## Step 5 - Acessar o namespace
 
 ``` bash
 kubens workon
 ```
 
-## Step 5 - Subir o POD
+## Step 6 - Subir o POD
 
 ``` bash
 kubectl apply -f deployment.yaml
   deployment.apps/nginx-deployment created
 ```
 
-### ou
+### ou passando o namespace
 
 ``` bash
 kubectl apply -f deployment.yaml -n workon
 ```
 
-## Step 6 - Listar o deployment
+## Step 7 - Listar o deployment
 
 ``` bash
 kubectl get deployments 
@@ -52,7 +56,7 @@ kubectl get deployments
   nginx-deployment   2/2     2            2           66s
 ```
 
-## Step 7 - Listar o pod
+## Step 8 - Listar o pod
 
 ``` bash
 kubectl get pods
@@ -67,7 +71,7 @@ kubectl get pods
 kubectl exec -it nginx-deployment-6595874d85-8g67r -n workon -- /bin/bash
 ```
 
-## Step 8 - Port-Forward
+## Step 9 - Port-Forward
 
 ``` bash
 kubectl port-forward deployment/nginx-deployment 8080:80
@@ -75,14 +79,14 @@ kubectl port-forward deployment/nginx-deployment 8080:80
   Forwarding from [::1]:8080 -> 80
 ```
 
-## Step 9 - Remover a Release
+## Step 10 - Remover a Release
 
 ``` bash
 kubectl delete -f deployment.yaml
   deployment.apps "nginx-deployment" deleted
 ```
 
-## Step 10 - Remover o namespace
+## Step 11 - Remover o namespace
 
 ``` bash
 kubectl delete -f deployment.yaml
