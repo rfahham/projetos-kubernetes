@@ -15,5 +15,6 @@ spec:
       containers:
       - name: nginx
         image: rfahham/work-on:v.2.0.0
+        # image: rfahham/workon:1.0 está dando erro
         ports:
         - containerPort: 80
