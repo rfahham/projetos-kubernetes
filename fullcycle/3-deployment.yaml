@@ -16,6 +16,7 @@ spec:
       - name: nginx
         # image: rfahham/work-on:v.2.0.0
         # image: rfahham/workon:1.0 # está dando erro
-        image: nginx:1.14.2
+        # image: wesleywillians/nginx-ab
+        image: nginx:1.16.1
         ports:
         - containerPort: 80

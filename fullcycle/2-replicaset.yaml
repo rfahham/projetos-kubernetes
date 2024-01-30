@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx-replicaset
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: workon
+  template:
+    metadata:
+      labels:
+        app: workon
+    spec:
+      containers:
+      - name: workon
+        image: nginx:latest
+        ports:
+        - containerPort: 80

@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: workon
+  labels:
+    role: myrole
+spec:
+  containers:
+    - name: web
+      image: nginx:1.14.2
+      ports:
+        - name: web
+          containerPort: 80
+          protocol: TCP
+
+# Executar:
+
+# ✗ kubectl apply -f pod.yaml
+
+# ✗ kubectl get pods
+# NAME         READY   STATUS    RESTARTS   AGE
+# static-web   1/1     Running   0          12s
+
+# ✗ kubectl port-forward pod/static-web 8080:80 
+# Forwarding from 127.0.0.1:8080 -> 80
+# Forwarding from [::1]:8080 -> 80
+# Handling connection for 8080
