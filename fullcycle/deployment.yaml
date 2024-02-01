@@ -17,3 +17,6 @@ spec:
         image: wesleywillians/nginx-ab
         ports:
         - containerPort: 80
+
+
+# kubectl port-forward deployment/fullcicle-deployment 8080:80
