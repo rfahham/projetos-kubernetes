@@ -1,0 +1,434 @@
+{
+    "aeroportos-brasil": {
+        "ano": 2024,
+        "quantidade": 52
+    },
+    "sul": [
+        {
+            "aeroporto": "Aeroporto Internacional de Florianópolis - Hercílio Luz",
+            "sigra": "FLN",
+            "estado": "Santa Catarina",
+            "capital": "Florianópolis",
+            "cidade": "Florianópolis",
+            "UF": "SC"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Navegantes - Ministro Victor Konder",
+            "sigra": "NVT",
+            "estado": "Santa Catarina",
+            "capital": "Florianópolis",
+            "cidade": "Navegantes",
+            "UF": "SC"
+        },
+        {
+            "aeroporto": "Aeroporto de Joinville - Lauro Carneiro de Loyola",
+            "sigra": "JOI",
+            "estado": "Santa Catarina",
+            "capital": "Florianópolis",
+            "cidade": "Joinville",
+            "UF": "SC"
+        },
+        {
+            "aeroporto": "Aeroporto de Chapecó - Serafin Enoss Bertaso",
+            "sigra": "XAP",
+            "estado": "Santa Catarina",
+            "capital": "Florianópolis",
+            "cidade": "Chapecó",
+            "UF": "SC"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Porto Alegre - Salgado Filho",
+            "sigra": "POA",
+            "estado": "Rio Grande do Sul",
+            "capital": "Porto Alegre",
+            "cidade": "Porto Alegre",
+            "UF": "RS"
+        },
+        {
+            "aeroporto": "Aeroporto Regional de Caxias do Sul - Hugo Cantergiani",
+            "sigra": "CXJ",
+            "estado": "Rio Grande do Sul",
+            "capital": "Porto Alegre",
+            "cidade": "Caxias do Sul",
+            "UF": "RS"
+        },
+        {
+            "aeroporto": "Aeroporto de Londrina - Governador José Richa",
+            "sigra": "LDB",
+            "estado": "Paraná",
+            "capital": "Curitiba",
+            "cidade": "londrina",
+            "UF": "PR"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Curitiba - Afonso Pena",
+            "sigra": "CWB",
+            "estado": "Paraná",
+            "capital": "Curitiba",
+            "cidade": "Curitiba",
+            "UF": "PR"
+        },
+        {
+            "aeroporto": "Aeroporto Regional de Maringá - Silvio Name Junior",
+            "sigra": "MGF",
+            "estado": "Paraná",
+            "capital": "Curitiba",
+            "cidade": "Maringá",
+            "UF": "PR"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Foz do Iguaçu",
+            "sigra": "IGU",
+            "estado": "Paraná",
+            "capital": "Curitiba",
+            "cidade": "Foz do Iguaçu",
+            "UF": "PR "
+        }
+    ],
+    "suldeste": [
+        {
+            "aeroporto": "Aeroporto de Vitória - Eurico de Aguiar Salles",
+            "sigra": "VIX",
+            "estado": "Espírito Santo",
+            "capital": "Vitória",
+            "cidade": "Vitória",
+            "UF": "ES"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional do Rio de Janeiro - Galeão-Antônio Carlos Jobim",
+            "sigra": "GIG",
+            "estado": "Rio de Janeiro",
+            "capital": "Rio de Janeiro",
+            "cidade": "Rio de Janeiro",
+            "UF": "RJ"
+        },
+        {
+            "aeroporto": "Aeroporto Santos Dumont",
+            "sigra": "SDU",
+            "estado": "Rio de Janeiro",
+            "capital": "Rio de Janeiro",
+            "cidade": "Rio de Janeiro",
+            "UF": "RJ"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Cabo Frio",
+            "sigra": "CFB",
+            "estado": "Rio de Janeiro",
+            "capital": "Rio de Janeiro",
+            "cidade": "Cabo Frio",
+            "UF": "RJ"
+        },
+        {
+            "aeroporto": "Aeroporto Estadual de Presidente Prudente",
+            "sigra": "PPB",
+            "estado": "São Paulo",
+            "capital": "São Paulo",
+            "cidade": "Presidente Prudente",
+            "UF": "SP"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Viracopos - Campinas",
+            "sigra": "VCP",
+            "estado": "São Paulo",
+            "capital": "São Paulo",
+            "cidade": "Campinas",
+            "UF": "SP"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de São Paulo - Congonhas",
+            "sigra": "CGH",
+            "estado": "São Paulo",
+            "capital": "São Paulo",
+            "cidade": "São Paulo",
+            "UF": "SP"
+        },
+        {
+            "aeroporto": "Aeroporto Estadual de Bauru - Arealva",
+            "sigra": "JTC",
+            "estado": "São Paulo",
+            "capital": "São Paulo",
+            "cidade": "Bauru",
+            "UF": "SP"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de São Paulo - Guarulhos-Governador André Franco Motoro",
+            "sigra": "GRU",
+            "estado": "São Paulo",
+            "capital": "São Paulo",
+            "cidade": "Guarulhos",
+            "UF": "SP "
+        },
+        {
+            "aeroporto": "Aeroporto de Montes Claros - Mário Ribeiro",
+            "sigra": "MOC",
+            "estado": "Minas Gerais",
+            "capital": "Belo Horizonte",
+            "cidade": "Montes Claros",
+            "UF": "MG"
+        },
+        {
+            "aeroporto": "Aeroporto de Uberlândia - Ten. Cel. Av. César Bombonato",
+            "sigra": "UDI",
+            "estado": "Minas Gerais",
+            "capital": "Belo Horizonte",
+            "cidade": "Uberlândia",
+            "UF": "MG "
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Minas Gerais - Confins – Tancredo Neves",
+            "sigra": "CNF",
+            "estado": "Minas Gerais",
+            "capital": "Belo Horizonte",
+            "cidade": "Confins",
+            "UF": "MG"
+        }
+    ],
+    "distrito-federal": [
+        {
+            "aeroporto": "Aeroporto Internacional de Brasília - Presidente Juscelino Kubitschek",
+            "sigra": "BSB",
+            "estado": "Brasília",
+            "capital": "Brasília",
+            "cidade": "Brasília",
+            "UF": "DF"
+        }
+    ],
+    "centro-oeste": [
+        {
+            "aeroporto": "Aeroporto Internacional de Campo Grande",
+            "sigra": "CGR",
+            "estado": "Mato Grosso do Sul",
+            "capital": "Campo Grande",
+            "cidade": "Campo Grande",
+            "UF": "MS"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Cuiabá - Marechal Rondon",
+            "sigra": "CGB",
+            "estado": "Mato Grosso",
+            "capital": "Cuiabá",
+            "cidade": "Cuiabá",
+            "UF": "MT"
+        },
+        {
+            "aeroporto": "Aeroporto de Goiânia - Santa Genoveva",
+            "sigra": "GYN",
+            "estado": "Goiás",
+            "capital": "Goiânia",
+            "cidade": "Goiânia",
+            "UF": "GO"
+        }
+    ],
+    "norte": [
+        {
+            "aeroporto": "Aeroporto Internacional de Manaus - Eduardo Gomes",
+            "sigra": "MAO",
+            "estado": "Amazonas",
+            "capital": "Manaus",
+            "cidade": "Manaus",
+            "UF": "AM"
+        },
+        {
+            "aeroporto": "Aeroporto de Palmas/Brigadeiro Lysias Rodrigues",
+            "sigra": "PMW",
+            "estado": "Tocantins",
+            "capital": "palmas",
+            "cidade": "Palmas",
+            "UF": "TO "
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Macapá",
+            "sigra": "MCP",
+            "estado": "Amapá",
+            "capital": "Macapá",
+            "cidade": "Macapá",
+            "UF": "AP"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Porto Velho - Governador Jorge Teixeira de Oliveira",
+            "sigra": "PVH",
+            "estado": "Roraima",
+            "capital": "Boa Vista",
+            "cidade": "Porto Velho",
+            "UF": "RO "
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Rio Branco - Plácido de Castro",
+            "sigra": "RBR",
+            "estado": "Acre",
+            "capital": "Rio Branco",
+            "cidade": "Rio Branco",
+            "UF": "AC "
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Boa Vista - Atlas Brasil Cantanhede",
+            "sigra": "BVB",
+            "estado": "Roraima",
+            "capital": "Boa Vista",
+            "cidade": "Boa Vista",
+            "UF": "RR"
+        },
+        {
+            "aeroporto": "Aeroporto de Santarém - Maestro Wilson Fonseca",
+            "sigra": "STM",
+            "estado": "Pará",
+            "capital": "Belém",
+            "cidade": "Santarém",
+            "UF": "PA"
+        },
+        {
+            "aeroporto": "Aeroporto de Marabá",
+            "sigra": "MAB",
+            "estado": "Pará",
+            "capital": "Belém",
+            "cidade": "Marabá",
+            "UF": "PA"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Belém - Val de Cans",
+            "sigra": "BEL",
+            "estado": "Pará",
+            "capital": "Belém",
+            "cidade": "Belém",
+            "UF": "PA"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Cruzeiro do Sul",
+            "sigra": "CZS",
+            "estado": "Acre",
+            "capital": "rio branco",
+            "cidade": "Cruzeiro do Sul",
+            "UF": "AC"
+        }
+    ],
+    "nordeste": [
+        {
+            "aeroporto": "Aeroporto Internacional de Salvador - Deputado Luis Eduardo Magalhães",
+            "sigra": "SSA",
+            "estado": "Bahia",
+            "capital": "Salvador",
+            "cidade": "Salvador",
+            "UF": "BA"
+        },
+        {
+            "aeroporto": "Aeroporto de Ilhéus - Bahia-Jorge Amado",
+            "sigra": "IOS",
+            "estado": "Bahia",
+            "capital": "Salvador",
+            "cidade": "Ilhéus",
+            "UF": "BA "
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Porto Seguro",
+            "sigra": "BPS",
+            "estado": "Bahia",
+            "capital": "Salvador",
+            "cidade": "Porto Seguro",
+            "UF": "BA"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional do Recife - Guararapes – Gilberto Freyre",
+            "sigra": "REC",
+            "estado": "Pernambuco",
+            "capital": "Recife",
+            "cidade": "Recife",
+            "UF": "PE"
+        },
+        {
+            "aeroporto": "Aeroporto de Fernando de Noronha",
+            "sigra": "FEN",
+            "estado": "Pernambuco",
+            "capital": "Recife",
+            "cidade": "Fernando de Noronha",
+            "UF": "PE"
+        },
+        {
+            "aeroporto": "Aeroporto de Petrolina - Senador Nilo Coelho",
+            "sigra": "PNZ",
+            "estado": "Pernambuco",
+            "capital": "Recife",
+            "cidade": "Petrolina",
+            "UF": "PE "
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Fortaleza - Pinto Martins",
+            "sigra": "FOR",
+            "estado": "Ceará",
+            "capital": "Fortaleza",
+            "cidade": "Fortaleza",
+            "UF": "CE"
+        },
+        {
+            "aeroporto": "Aeroporto de Juazeiro do Norte – Orlando Bezerra",
+            "sigra": "JDO",
+            "estado": "Ceará",
+            "capital": "Fortaleza",
+            "cidade": "Juazeiro do Norte",
+            "UF": "CE"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Natal - Augusto Severo",
+            "sigra": "NAT",
+            "estado": "Rio Grande do Norte",
+            "capital": "Natal",
+            "cidade": "Natal",
+            "UF": "RN"
+        },
+        {
+            "aeroporto": "Aeroporto de Maceió - Zumbi dos Palmares",
+            "sigra": "MCZ",
+            "estado": "Alagoas",
+            "capital": "Maceió",
+            "cidade": "Maceió",
+            "UF": "AL"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de São Luís - Marechal Cunha Machado",
+            "sigra": "SLZ",
+            "estado": "Maranhão",
+            "capital": "São Luís",
+            "cidade": "São Luís",
+            "UF": "MA "
+        },
+        {
+            "aeroporto": "Aeroporto de Imperatriz – Prefeito Renato Moreira",
+            "sigra": "IMP",
+            "estado": "Maranhão",
+            "capital": "São Luís",
+            "cidade": "Imperatriz",
+            "UF": "MA"
+        },
+        {
+            "aeroporto": "Aeroporto de Teresina – Senador Petrônio Portella",
+            "sigra": "THE",
+            "estado": "Piauí",
+            "capital": "Teresina",
+            "cidade": "Teresina",
+            "UF": "PI "
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de Aracaju - Santa Maria",
+            "sigra": "AJU",
+            "estado": "Sergipe",
+            "capital": "Aracaju",
+            "cidade": "Aracaju",
+            "UF": "SE"
+        },
+        {
+            "aeroporto": "Aeroporto Internacional de João Pessoa - Presidente Castro Pinto",
+            "sigra": "JPA",
+            "estado": "Paraíba",
+            "capital": "João Pessoa",
+            "cidade": "João Pessoa",
+            "UF": "PB"
+        },
+        {
+            "aeroporto": "Aeroporto de Campina Grande - Presidente João Suassuna",
+            "sigra": "CPV",
+            "estado": "Paraíba",
+            "capital": "João Pessoa",
+            "cidade": "Campina Grande",
+            "UF": "PB "
+        }
+    ]
+}
