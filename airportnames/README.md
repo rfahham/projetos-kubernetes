@@ -6,8 +6,12 @@
 
 1 - Fazer o deployment
 
-2 - Direcionar o port-forward
+    kubectl apply -f deployment.yaml
+
+2 - Configurar o port-forward
+
     kubectl port-forward deployment/airportnames-deployment 8080:8080
 
 3 - Abrir no Browser
+
     http://localhost:8080/airportName?iataCode=SDU
