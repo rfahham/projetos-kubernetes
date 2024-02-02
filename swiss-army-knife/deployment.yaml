@@ -1,0 +1,25 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: swiss-army-knife
+  # namespace: metrics
+  # namespace: oineoson
+spec:
+  selector:
+    matchLabels:
+      app: swiss-army-knife
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: swiss-army-knife
+        disable-gcp-cloud-logging: "true"
+    spec:
+      containers:
+        - name: swiss-army-knife
+          #Ubuntu VERSION="18.04.6 LTS (Bionic Beaver)"
+          image: rfahham/swiss-army-knife:v1.6.0
+          # image: docker.artifactory.globoi.com/sre/swiss-army-knife/swiss-army-knife:v1.6
+          # image: docker.artifactory.globoi.com/sre/swiss-army-knife/swiss-army-knife:latest
+          imagePullPolicy: Always
