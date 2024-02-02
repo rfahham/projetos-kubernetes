@@ -1,5 +1,9 @@
 # swiss-army-knife
 
+Imagem com inúmeras ferramentas para depuração
+
+- curl
+
 ## Deployment
 
 ```bash
@@ -20,4 +24,3 @@
 ```bash
     kubectl exec -it swiss-army-knife-564fdd8d8b-khbhd -n workon -- sh
 ```
-
