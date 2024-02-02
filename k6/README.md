@@ -1,86 +1,10 @@
-# Deployment
+# ![Grafana k6](logo.svg)
 
-## Step 1 - Listar os clusters
+What is k6?
+Grafana k6 is an open-source load testing tool that makes performance testing easy and productive for engineering teams. k6 is free, developer-centric, and extensible.
 
-``` bash
-kubectx
-  qac-prod-gke
-  sre-dev-gke
-  sre-hub-gke
-```
+Using k6, you can test the reliability and performance of your systems and catch performance regressions and problems earlier. k6 will help you to build resilient and performant applications that scale.
 
-## Step 2 - Selecionar o cluster
+k6 is developed by Grafana Labs and the community.
 
-``` bash
-kubectx sre-dev-gke
-```
-
-## Step 3 - Criar o namespace "k6"
-
-``` bash
-kubectl create namespace k6
-```
-
-## Step 4 - Listar os namespaces
-
-``` bash
-kubens 
-ou
-kubectl get ns
-```
-
-## Step 5 - Acessar o namespace
-
-``` bash
-kubens k6
-```
-
-## Step 6 - Subir o POD
-
-``` bash
-kubectl apply -f deployment.yaml
-  deployment.apps/k6-deployment created
-```
-
-### ou passando o namespace
-
-``` bash
-kubectl apply -f deployment.yaml -n k6
-```
-
-## Step 7 - Listar o deployment
-
-``` bash
-kubectl get deployments 
-  NAME               READY   UP-TO-DATE   AVAILABLE   AGE
-  k6-deployment   2/2     2            2           66s
-```
-
-## Step 8 - Listar o pod
-
-``` bash
-kubectl get pods
-  NAME                                READY   STATUS    RESTARTS   AGE
-  k6-deployment-6595874d85-8g67r   1/1     Running   0          2m43s
-  k6-deployment-6595874d85-cfnsw   1/1     Running   0          2m43s
-```
-
-### Acessando o pod
-
-```bash
-kubectl exec -it k6-deployment-6595874d85-8g67r -n k6 -- /bin/bash
-```
-
-## Step 9 - Remover a Release
-
-``` bash
-kubectl delete -f deployment.yaml
-  deployment.apps "k6-deployment" deleted
-```
-
-## Step 11 - Remover o namespace
-
-``` bash
-kubectl delete -f deployment.yaml
-  deployment.apps "k6-deployment" deleted
-```
+[k6 Documention](https://grafana.com/docs/k6/latest/)
