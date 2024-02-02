@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alpine-army-knife-deployment
+spec:
+  selector:
+    matchLabels:
+      app: alpine-army-knife
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: alpine-army-knife
+    spec:
+      containers:
+      - name: alpine-army-knife
+        image: docker.artifactory.globoi.com/sre/alpine-army-knife/alpine-army-knife:v1.0.2
