@@ -15,5 +15,7 @@ spec:
       containers:
       - name: workon
         image: rfahham/workon:2.0.0
+        imagePullPolicy: Always
+        command: ["sleep", "infinity"]
         ports:
         - containerPort: 80

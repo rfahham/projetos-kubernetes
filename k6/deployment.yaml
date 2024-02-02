@@ -14,4 +14,6 @@ spec:
     spec:
       containers:
       - name: k6
-        image: grafana/k6:v1.16.25
+        image: grafana/k6
+        imagePullPolicy: Always
+        command: ["sleep", "infinity"]

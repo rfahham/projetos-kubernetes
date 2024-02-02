@@ -15,3 +15,5 @@ spec:
       containers:
       - name: oracle
         image: oraclelinux
+        imagePullPolicy: Always
+        command: ["sleep", "infinity"]
