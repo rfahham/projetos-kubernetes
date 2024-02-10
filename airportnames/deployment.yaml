@@ -17,5 +17,3 @@ spec:
         image: rmerces/airportnames
         ports:
         - containerPort: 8080
-
-# kubectl port-forward deployment/airportnames-deployment 8080:80

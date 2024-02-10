@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: conversao-temperatura
 spec:
   selector:
     matchLabels:
-      app: nginx
-  replicas: 2 # tells deployment to run 2 pods matching the template
+      app: conversao-temperatura
+  replicas: 2
   template:
     metadata:
       labels:
-        app: nginx
+        app: conversao-temperatura
     spec:
       containers:
-      - name: nginx
+      - name: conversao-temperatura
         image: rfahham/conversao-temperatura:v1
-        # ports:
-        # - containerPort: 80
+        ports:
+        - containerPort: 80

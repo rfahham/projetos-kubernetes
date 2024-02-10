@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: swiss-army-knife
-  # namespace: metrics
+  # namespace: workon
   # namespace: oineoson
 spec:
   selector:

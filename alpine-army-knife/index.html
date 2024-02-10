@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Live Video</title>
+</head>
+<script src="hls.js"></script>
+<body>
+  <P><B>SRE  black screen detection POC and Tag Monitor</B></P>
+  <video id="video" autoplay="true" controls="controls" type='application/x-mpegURL'></video>
+  <script>
+    var video = document.getElementById('video');
+    if (Hls.isSupported()) {
+      var video = document.getElementById('video');
+      var hls = new Hls();
+      // bind them together
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+        video.muted = true;
+        video.play();
+        console.log("video and hls.js are now bound together !");
+        hls.loadSource("playlist.m3u8");
+        hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+          video.play();
+        });
+      });
+    }
+  </script>
+</body>
+</html>
