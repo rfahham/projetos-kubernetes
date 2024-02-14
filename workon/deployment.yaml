@@ -14,9 +14,7 @@ spec:
     spec:
       containers:
       - name: workon
-        # Funciona
-        image: nginx 
-        # image: rfahham/workon:2.0.0
-        # image: docker.artifactory.globoi.com/qa2/workon:v2.0.0
+        image: nginx
+        # command: ["sleep", "infinity"]
         ports:
         - containerPort: 80
