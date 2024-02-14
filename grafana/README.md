@@ -1,5 +1,5 @@
-# WORKON
+# GRAFANA
 
-## Healthcheck com html
+## Criando pods com Grafana
 
-Projeto para responder um status code 200 com a mensagem "WORKING..."
+Abrir página no browser usando a porta 3000
