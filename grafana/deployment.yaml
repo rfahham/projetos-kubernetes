@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grafana-deployment
+  namespace: workon
+spec:
+  selector:
+    matchLabels:
+      app: grafana
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: grafana
+    spec:
+      containers:
+      - name: grafana
+        image: docker.artifactory.globoi.com/sre/grafana/grafana:9.3.6
+        ports:
+        - containerPort: 3000

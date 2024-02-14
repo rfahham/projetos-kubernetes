@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus-deployment
+  namespace: workon
+spec:
+  selector:
+    matchLabels:
+      app: prometheus
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: prometheus
+    spec:
+      containers:
+      - name: prometheus
+        image: docker.artifactory.globoi.com/sre/prometheus:latest
+        ports:
+        - containerPort: 9090

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crud-produto
+spec:
+  selector:
+    matchLabels:
+      app: node
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: node
+    spec:
+      containers:
+      - name: node
+        # image: fabricioveronez/api-produto:latest
+        image: rfahham/api-produto:v1.0.0
+        ports:
+        - containerPort: 80
