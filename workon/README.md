@@ -1,13 +1,12 @@
 # WORKON
 
-## Healthcheck com html
-
 Projeto para responder um status code 200 com a mensagem "WORKING..."
 
 ## Criando os PODS
 
 ```bash
-kubectl apply -f deployment.yaml 
+kubectl apply -f deployment.yaml
+deployment.apps/workon-deployment created
 ```
 
 ## Listando os PODS
@@ -28,4 +27,6 @@ Forwarding from [::1]:8080 -> 80
 Handling connection for 8080
 Handling connection for 8080
 ```
-!()[]
+
+## Acessando via borwser
+![NGINX](nginx.png)
