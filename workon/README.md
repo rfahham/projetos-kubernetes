@@ -29,4 +29,4 @@ Handling connection for 8080
 ```
 
 ## Acessando via borwser
-![NGINX](nginx.png)
+![NGINX](working.png)

@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: workon
-        image: nginx
+        # image: nginx
+        image: rfahham/workon:2.0.0
         # command: ["sleep", "infinity"]
         ports:
         - containerPort: 80
